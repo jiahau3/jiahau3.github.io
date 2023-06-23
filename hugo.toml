@@ -1,18 +1,18 @@
 baseURL = "https://jiahau3.github.io/"
 languageCode = 'en-us'
-title = "JH's Notes"
+title = "JH's Blog"
 theme = 'PaperMod'
 
 [params]
 ShowBreadCrumbs = false
 ShowReadingTime = true
+    [params.assets]
+    favicon = "/images/favicon.ico"
 
 # home-info mode
 [params.homeInfoParams]
-    title = "Welcome to JH's Notes 👋"
-    content = 'Hi, I am Jia-Hau. '
-
-
+    title = "Welcome to JH's Blog 🔭"
+    content = 'Hi, I am Jia-Hau, passionate about discovering things through different scopes. Here to document things interested to me. Currently freelancing as a data scientist.'
 
 [[params.socialIcons]]
 name = 'github'
@@ -38,9 +38,6 @@ url = 'https://paypal.me/jiahauC?country.x=TW&locale.x=en_US'
 name = 'upwork'
 url = 'https://www.upwork.com/freelancers/~01c2a4024693ca5235?viewMode=1'
 
-[params.label]
-    
-    icon = "static/images/icons8-adventure-64.png"
 
 [[menu.main]]
 identifier = "posts"
