@@ -46,13 +46,19 @@ url = "/"
 weight = 10
 
 [[menu.main]]
+identifier = "apps"
+name = "Apps"
+url = "/apps/"
+weight = 20
+
+[[menu.main]]
 identifier = "archives"
 name = "Archives"
 url = "/archives/"
-weight = 20
+weight = 30
 
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
 url = "/tags/"
-weight = 30
+weight = 40
