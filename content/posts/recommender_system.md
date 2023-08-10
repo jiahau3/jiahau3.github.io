@@ -6,7 +6,7 @@ draft: False
 #     image: /images/result_vbt.png
 #     alt: MA crossing backtest from VBT
 #     caption: MA crossing backtest from VBT
-tags: ['Recommender Systems', 'Cosine Similarity', 'Content Filtering']
+tags: ['Recommender Systems', 'Cosine Similarity', 'Content-based Filtering']
 author: ['Jia-Hau Ching']
 ---
 
@@ -15,15 +15,16 @@ As amount of data explosively increasing nowadays, we have got so many informati
 2. Collaborative filtering
 3. Hybrid filtering
 
-In this post, it will focus on content-based filtering model and will give an example of using it. It makes recommendations based on the characteristics of items and tries to match with user preference. I participated a cooperative work of building a recommender system for Berlin grocery shopping on [Omdena](https://omdena.com/chapter-challenges/developing-a-recommended-system-for-grocery-shopping-in-berlin/). Our objective is to create a tool for people, especially new comers, to help them explore the ideal stores for grocery shopping.
+Generally, the first method recommends items from the input of users. It could be the information users provided when setting up their account like Twitch, Netflix, or just from a search query. Then using algorithms to quantify and compare similarity between user input and database. The second one uses other user records and manage to recommend items that other similar users bought. The third is the combination of these two models for solving the drawbacks of each one. In this post, it will focus on content-based filtering model and will give an example of using it. It is a cooperative project of building a recommender system for Berlin grocery shopping on [Omdena](https://omdena.com/chapter-challenges/developing-a-recommended-system-for-grocery-shopping-in-berlin/). Our objective is to create a tool for people, especially new comers, to help them explore the ideal stores for grocery shopping.
 
-Due to lack of the information of customer profiles, we chose to develop an application based on a content-based filtering model. First, we collect the public data of different grocery stores in Berlin through web scraping. After organizing and cleaning the data, we build several models and compare their performance by examining the recommended results of each query. One of the applications uses the model,  [Sentence Transformer](https://www.sbert.net/) for analyzing contextual queries. What makes it unique is that it can understand more vague queries than other models. It gives somehow relevant results when queries are something like "gift for Christmas". Give it a try! You can access it in the **Apps** or by this [link](https://huggingface.co/spaces/jiahau/Rec-sys-Berlin-ST).
+Due to lack of the information of customer profiles, we chose to develop an application based on a content-based filtering model. First, we collect the public data from different grocery stores in Berlin through web scraping. After organizing and cleaning the data, we build several models and compare their performance by examining the recommended results of each query. One of the applications uses the model,  [Sentence Transformer](https://www.sbert.net/) for analyzing contextual queries. What makes it unique is that it can understand more vague queries than other models. It gives somehow relevant results when queries are something like "gift for Christmas". Give it a try! You can access it in the [**Apps**](/apps/) or by this [link](https://huggingface.co/spaces/jiahau/Rec-sys-Berlin-ST).
 
 
 
 
 <!-- (--- in processing ---)
 
+How to select features
 
 candidate generation, scoring and re-ranking
 sequence learning
