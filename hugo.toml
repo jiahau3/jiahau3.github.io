@@ -38,6 +38,10 @@ url = 'https://paypal.me/jiahauC?country.x=TW&locale.x=en_US'
 name = 'upwork'
 url = 'https://www.upwork.com/freelancers/~01c2a4024693ca5235?viewMode=1'
 
+[[params.socialIcons]]
+name = 'medium'
+url = 'https://medium.com/@jiahau3'
+
 
 [[menu.main]]
 identifier = "posts"
