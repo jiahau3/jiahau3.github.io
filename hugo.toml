@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = "JH's Blog"
 theme = 'PaperMod'
 
+[markup]
+defaultMarkdownHandler = "goldmark"
+
 [params]
 ShowBreadCrumbs = false
 ShowReadingTime = true
