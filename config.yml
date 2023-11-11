@@ -10,25 +10,25 @@ params:
   assets:
     favicon: "/images/favicon.ico"
 
-homeInfoParams:
-  title: "Welcome to JH's Blog 🔭"
-  content: 'Hi, I am Jia-Hau, passionate about discovering things through different scopes. Here to document things interested to me. Currently exploring things related to data science and machine learning.'
+  homeInfoParams:
+    title: "Welcome to JH's Blog 🔭"
+    content: 'Hi, I am Jia-Hau, passionate about discovering things through different scopes. Here to document things interested to me. Currently exploring things related to data science and machine learning.'
 
-socialIcons:
-  - name: 'github'
-    url: "https://github.com/jiahau3"
-  - name: 'youtube'
-    url: "https://www.youtube.com/channel/UCr86viYEHm-FFALl6wv7pHQ"
-  - name: 'kaggle'
-    url: "https://www.kaggle.com/jiahauc"
-  - name: 'twitter'
-    url: "https://twitter.com/JiahauChing"
-  - name: 'paypal'
-    url: 'https://paypal.me/jiahauC?country.x=TW&locale.x=en_US'
-  - name: 'upwork'
-    url: 'https://www.upwork.com/freelancers/~01c2a4024693ca5235?viewMode=1'
-  - name: 'medium'
-    url: 'https://medium.com/@jiahau3'
+  socialIcons:
+    - name: 'github'
+      url: "https://github.com/jiahau3"
+    - name: 'youtube'
+      url: "https://www.youtube.com/channel/UCr86viYEHm-FFALl6wv7pHQ"
+    - name: 'kaggle'
+      url: "https://www.kaggle.com/jiahauc"
+    - name: 'twitter'
+      url: "https://twitter.com/JiahauChing"
+    - name: 'paypal'
+      url: 'https://paypal.me/jiahauC?country.x=TW&locale.x=en_US'
+    - name: 'upwork'
+      url: 'https://www.upwork.com/freelancers/~01c2a4024693ca5235?viewMode=1'
+    - name: 'medium'
+      url: 'https://medium.com/@jiahau3'
 
 menu:
   main:
