@@ -8,7 +8,6 @@ draft: False
 #     caption: MA crossing backtest from VBT
 tags: ['Sentiment Analysis', 'Embedding', 'Chat']
 author: ['Jia-Hau Ching']
-math: true
 ---
 
 What is a chatbot? A chatbot is an assistant for answering questions, saving time from waiting human's responses. But how? How computer can understand human language? Indeed, it can't read words like we do. It reads number.

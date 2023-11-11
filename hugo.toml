@@ -6,6 +6,7 @@ theme = 'PaperMod'
 [params]
 ShowBreadCrumbs = false
 ShowReadingTime = true
+math = true
     [params.assets]
     favicon = "/images/favicon.ico"
 
