@@ -66,7 +66,7 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")  # Remove the axis
 plt.show()   
 ```
-![WordCloud](/images/wordcloud.png)
+![WordCloud](/static/images/wordcloud.png)
 
 #### TF-IDF
 However, some cleaning is necessary for getting rid of trivial word or symbol. This process needs some domain knowledge to carefully get the ideal results. Another algorithm, Term Frequency - Inverse Document Frequency(TF-IDF) is suitable fro resolving this issue. As the phrase implies, it consists of two parts, TF and IDF[1]. Term frequency, tf(t,d), is the relative frequency of term t within document d,
