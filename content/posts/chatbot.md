@@ -2,13 +2,13 @@
 title: "Creating a Chatbot"
 date: 2023-10-21T13:46:50+08:00
 draft: False
+ShowToc: true
 # cover:
 #     image: /images/result_vbt.png
 #     alt: MA crossing backtest from VBT
 #     caption: MA crossing backtest from VBT
 tags: ['Sentiment Analysis', 'Embedding', 'Chat']
 author: ['Jia-Hau Ching']
-ShowToc: true
 # TocOpen: true
 ---
 
