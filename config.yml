@@ -6,6 +6,9 @@ theme: 'PaperMod'
 params:
   ShowBreadCrumbs: false
   ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowShareButtons: true
   math: true
   assets:
     favicon: "/images/favicon.ico"
