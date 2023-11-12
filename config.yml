@@ -15,7 +15,7 @@ params:
 
   homeInfoParams:
     title: "Welcome to JH's Blog 🔭"
-    content: 'Hi, I am Jia-Hau, passionate about discovering things through different scopes. Here to document things interested to me. Currently exploring things related to data science and machine learning.'
+    content: 'Hi, I am Jia-Hau, passionate about discovering things through different scopes. A fan of Feynman, his word "What I cannot create, I do not understand." inspires me to do blogging. Currently exploring things related to data science and machine learning.'
 
   socialIcons:
     - name: 'github'
