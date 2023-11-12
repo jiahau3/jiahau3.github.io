@@ -15,7 +15,11 @@ params:
 
   homeInfoParams:
     title: "Welcome to JH's Blog 🔭"
+<<<<<<< HEAD
     content: 'Hi, I am Jia-Hau, passionate about discovering things through different scopes. Inspired by Feynman\'s philosophy, "What I cannot create, I do not understand.", I strive to make things clear in this blog. Currently exploring stuffs related to data science and machine learning.'
+=======
+    content: 'Hi, I am Jia-Hau, passionate about discovering things through different scopes. Inspired by Feynman's philosophy, "What I cannot create, I do not understand.", I strive to make things clear in this blog. Currently exploring stuffs related to data science and machine learning.'
+>>>>>>> b1046877ab4d9a193de92c89eff3319db6ec7ce7
 
   socialIcons:
     - name: 'github'
