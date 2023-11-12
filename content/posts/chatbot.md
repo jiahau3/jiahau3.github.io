@@ -16,10 +16,10 @@ What is a chatbot? A chatbot is an assistant for answering questions, saving tim
 Therefore, how to transform words into numbers is crucial for using languages to communicate with computers.
 
 ## Data Preprocessing
-
+Depending on what kind of chatbot to build, the collection of data can range from open source platform, scraping from websites, accessing to APIs from data vendor. It may includes labels for doing classification problems. If not, having some domain knowledge is important to do proper labelling. Then, based on what models to use, the data cleaning process also needs some trial and error. Nevertheless, it usually includes removing punctuation, stop words, and special characters. We can set up a rough preprocessing first and evaluate model performance by splitting data into training, validation and test set. This process iterates over and over until getting an acceptable model performance.
 ## Feature Extraction
 ### Bag-of-Words
-There are some methods for tackling this problem. For example, assigning each word with a unique number. Let's say if we have a sentence "It is a beautiful day!". The sentence can be represented by numbers like "0 1 2 3 4 5". This transformation is called encoding. The exact procedure is as follows
+There are some methods to transform words into numbers. For example, assigning each word with a unique number. Let's say if we have a sentence "It is a beautiful day!". The sentence can be represented by numbers like "0 1 2 3 4 5". This transformation is called encoding. The exact procedure is as follows
 1. Tokenize sentences
 2. Create a vocabulary containing all words
 3. Encode a sentence as a vector with size equivalent to vocabulary size
