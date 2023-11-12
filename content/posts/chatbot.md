@@ -76,7 +76,7 @@ plt.show()
 ![WordCloud](/images/wordcloud.png)
 
 ### TF-IDF
-However, some cleaning is necessary for getting rid of trivial word or symbol. This process needs some domain knowledge to carefully get the ideal results. Another algorithm, Term Frequency - Inverse Document Frequency(TF-IDF) is suitable fro resolving this issue. As the phrase implies, it consists of two parts, TF and IDF[1]. Term frequency, tf(t,d), is the relative frequency of term t within document d,
+However, some cleaning is necessary for getting rid of trivial word or symbol. This process needs some domain knowledge to carefully get the ideal results. Another algorithm, Term Frequency - Inverse Document Frequency(TF-IDF) is suitable fro resolving this issue. As the phrase implies, it consists of two parts, TF and IDF[1](https://en.wikipedia.org/wiki/Tf%E2%80%93idf). Term frequency, tf(t,d), is the relative frequency of term t within document d,
 $$
 tf(t, d) = \frac{f_{t,d}}{\Sigma_{t^{'}\in d}f_{t^{'},d}}
 $$
@@ -97,7 +97,7 @@ Like 'Cancer destroying immune system', 'Immune system destroying cancer'.
 BOW, TF-IDF are not ideal for this sentiment analysis problem since they may provide the same outcome with the sentences composed of same words with difference order, like 'Cancer destroying immune system', 'Immune system destroying cancer'. Thus, We need an algorithm for understanding the context in order to correctly understand human's intent.
 
 ### Word Embedding
-Dimension has its meaning. For example, dog and cat are similar in terms of animal category, i.e. one dimension, but they are not that similar in terms of sound category. The vectorization of previous methods does not take these factors into account. Hence, a systematic transformation of vector space is crucial for extracting relations between words. This mapping process is called embedding. It turns sparse vectors into dense vectors. It resolves issues of lacking connections between words/sentences. However, creating a good word embedding from scratch is not easy. It needs tons of data to tune the coefficient of matrix(neural network). Adopting pre-trained word embeddings are much more cost-effective for generous use purpose, e.g. building a chatbot in our case. There are several word embeddings, such as Word2Vec, GloVe, fastText, ELMo, and BERT[2]. 
+Dimension has its meaning. For example, dog and cat are similar in terms of animal category, i.e. one dimension, but they are not that similar in terms of sound category. The vectorization of previous methods does not take these factors into account. Hence, a systematic transformation of vector space is crucial for extracting relations between words. This mapping process is called embedding. It turns sparse vectors into dense vectors. It resolves issues of lacking connections between words/sentences. However, creating a good word embedding from scratch is not easy. It needs tons of data to tune the coefficient of matrix(neural network). Adopting pre-trained word embeddings are much more cost-effective for generous use purpose, e.g. building a chatbot in our case. There are several word embeddings, such as Word2Vec, GloVe, fastText, ELMo, and BERT[2](https://patil-aakanksha.medium.com/top-5-pre-trained-word-embeddings-20de114bc26). 
 
 ### BERT
 
