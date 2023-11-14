@@ -111,6 +111,24 @@ However, creating a good word embedding from scratch is not easy. It needs tons 
 A query from user can be categorized into several domains, such as emotions, intents, or some specific FAQ dataset. 
 ## Deployment
 Once ideal result from model is generated, it is ready to be deployed to production environment. One of deployment is setting up APIs to send results. 
+
+## Citation
+Cite as
+> Ching, Jia-Hau. (Oct, 2023) "Creating a Chatbot". JH's Note.
+
+Or
+
+```json
+@article{ching2023chatbot,
+  title   = "Creating a Chatbot"",
+  author  = "Ching, Jia-Hau",
+  journal = "jiahau3.github.io",
+  year    = "2023",
+  month   = "Oct",
+  url     = "https://jiahau3.github.io/posts/chatbot/"
+}
+```
+
 ## Reference
 [1] TF-IDF definition from [Wikipedia](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
 
