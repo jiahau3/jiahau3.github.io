@@ -118,7 +118,7 @@ Cite as
 
 Or
 
-```json
+```
 @article{ching2023chatbot,
   title   = "Creating a Chatbot"",
   author  = "Ching, Jia-Hau",
