@@ -110,7 +110,7 @@ MLM enables bidirectional learning from text by masking a word in a sentence. Th
 
 NSP makes BERT understand the relationships between sentences. It is achieved by randomly connecting sentences with non-coherent ones.
 
-Leveraging these two training techniques, the semantic knowledge is captured by the learned embeddings/representations. Making BERT an ideal pre-trained model for solving lots of NLP problems, like semantic analysis, question answering, text prediction, text generation, summarization,... and so on by adding one additional output layer of neuron network. It achieved new state-of-the-art results and even outperformed human on some tasks [[3](https://arxiv.org/abs/1810.04805)].
+Leveraging these two training techniques, the semantic knowledge is captured by the learned embeddings/representations. Making BERT an ideal pre-trained model for solving lots of NLP problems, like semantic analysis, question answering, text prediction, text generation, summarization,... and so on by adding one additional output layer of neuron network. It achieved new state-of-the-art results and even outperformed human on some tasks [[3](https://arxiv.org/abs/1810.04805)]. Hugging face's blog [BERT 101](https://huggingface.co/blog/bert-101) explains it quite well and provides tutorial to implement it.
 ### LLM
 
 ## Model Evaluation
@@ -141,3 +141,5 @@ Or
 [2] Aakanksha Patil [Top 5 Pre-trained Word Embeddings](https://patil-aakanksha.medium.com/top-5-pre-trained-word-embeddings-20de114bc26)
 
 [3] Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. ["Bert: Pre-training of deep bidirectional transformers for language understanding."](https://arxiv.org/abs/1810.04805) arXiv preprint arXiv:1810.04805 (2018).
+
+[4] Muller, Britney ["BERT 101 🤗 State Of The Art NLP Model Explained"](https://huggingface.co/blog/bert-101) Hugging Face Blog (2022)
