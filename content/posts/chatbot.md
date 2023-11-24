@@ -110,9 +110,11 @@ MLM enables bidirectional learning from text by masking a word in a sentence. Th
 
 NSP makes BERT understand the relationships between sentences. It is achieved by randomly connecting sentences with non-coherent ones.
 
-Leveraging these two training techniques, the semantic knowledge is captured by the learned embeddings/representations. Making BERT an ideal pre-trained model for solving lots of NLP problems, like semantic analysis, question answering, text prediction, text generation, summarization,... and so on by adding one additional output layer of neuron network. It achieved new state-of-the-art results and even outperformed human on some tasks [[3](https://arxiv.org/abs/1810.04805)]. Hugging face's blog [BERT 101](https://huggingface.co/blog/bert-101) explains it quite well and provides tutorial to implement it.
-### LLM
+Leveraging these two training techniques, the semantic knowledge is captured by the learned embeddings/representations. Making BERT an ideal pre-trained model for solving lots of NLP problems, like semantic analysis, question answering, text prediction, text generation, summarization,... and so on by adding one additional output layer of neuron network. It achieved new state-of-the-art results and even outperformed human on some tasks [[3](https://arxiv.org/abs/1810.04805)].
 
+Hugging face's blog [BERT 101](https://huggingface.co/blog/bert-101) explains it quite well and provides tutorial to implement it. Also, the most well-known chatbot is ChatGPT produced by OpenAI nowadays. Here is the [response](https://chat.openai.com/share/75edac58-6df2-4c51-a52b-95c5193bb586) from it for answering how MLM works and demonstrating how to implement it.
+### LLM
+Large Language Model (LLM),
 ## Model Evaluation
 A query from user can be categorized into several domains, such as emotions, intents, or some specific FAQ dataset. 
 ## Deployment
