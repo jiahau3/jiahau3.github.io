@@ -104,7 +104,13 @@ Dimension has its meaning. For example, dog and cat are similar in terms of anim
 However, creating a good word embedding from scratch is not easy. It needs tons of data to tune the coefficient of matrix(neural network). Adopting pre-trained word embeddings are much more cost-effective for generous use purpose, e.g. building a chatbot in our case. There are several word embeddings, such as Word2Vec, GloVe, fastText, ELMo, and BERT [[2](https://patil-aakanksha.medium.com/top-5-pre-trained-word-embeddings-20de114bc26)].
 
 ### BERT
+Bidirectional Encoder Representations from Transformers (BERT) is a multi-layer bidirectional Transformer encoder. The core concepts are Masked Language modelling (MLM) and Next Sentence Prediction (NSP).
 
+MLM enables bidirectional learning from text by masking a word in a sentence. This training technique forces BERT to use words from both sides of masked word to fill the covered word. Interestingly, this is how human usually learns a language by considering the context.
+
+NSP makes BERT understand the relationships between sentences. It is achieved by randomly connecting sentences with non-coherent ones.
+
+Leveraging these two training techniques, the semantic knowledge is captured by the learned embeddings/representations. Making BERT an ideal pre-trained model for solving lots of NLP problems, like semantic analysis, question answering, text prediction, text generation, summarization,... and so on by adding one additional output layer of neuron network. It achieved new state-of-the-art results and even outperformed human on some tasks [[3](https://arxiv.org/abs/1810.04805)].
 ### LLM
 
 ## Model Evaluation
@@ -133,3 +139,5 @@ Or
 [1] TF-IDF definition from [Wikipedia](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
 
 [2] Aakanksha Patil [Top 5 Pre-trained Word Embeddings](https://patil-aakanksha.medium.com/top-5-pre-trained-word-embeddings-20de114bc26)
+
+[3] Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. ["Bert: Pre-training of deep bidirectional transformers for language understanding."](https://arxiv.org/abs/1810.04805) arXiv preprint arXiv:1810.04805 (2018).
