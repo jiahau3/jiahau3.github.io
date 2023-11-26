@@ -133,7 +133,7 @@ Once ideal result from model is generated, it is ready to be deployed to product
 
 ## Citation
 Cite as
-> Ching, Jia-Hau. (Oct, 2023) "Creating a Chatbot". JH's Note.
+> Ching, Jia-Hau. (Nov, 2023) "Creating a Chatbot". JH's Note.
 
 Or
 
@@ -143,7 +143,7 @@ Or
   author  = "Ching, Jia-Hau",
   journal = "jiahau3.github.io",
   year    = "2023",
-  month   = "Oct",
+  month   = "Nov",
   url     = "https://jiahau3.github.io/posts/chatbot/"
 }
 ```
