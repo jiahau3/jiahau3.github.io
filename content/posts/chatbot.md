@@ -1,6 +1,6 @@
 ---
 title: "Creating a Chatbot"
-date: 2023-10-21T13:46:50+08:00
+date: 2023-11-26T13:46:50+08:00
 draft: False
 ShowToc: true
 # cover:
@@ -114,7 +114,16 @@ Leveraging these two training techniques, the semantic knowledge is captured by 
 
 Hugging face's blog [BERT 101](https://huggingface.co/blog/bert-101) explains it quite well and provides tutorial to implement it. Also, the most well-known chatbot is ChatGPT produced by OpenAI nowadays. Here is the [response](https://chat.openai.com/share/75edac58-6df2-4c51-a52b-95c5193bb586) from it for answering how MLM works and demonstrating how to implement it.
 ### LLM
-Large Language Model (LLM),
+A term becomes quite famous recently, since the release of ChatGPT. Large Language Model (LLM), it refers to a more advanced and powerful version of language model which is designed for understanding, generating text. LLM is often addressed extensive scale of training data and model parameter, GPT-3 for example.
+
+LLMs (GPT-3, LlaMA 2, ...) are autogressive models in NLP which generate outputs, one element at a time in a sequential manner. They are based on decoder part of Transformer architecture. It enables LLM to capture long-range dependencies and relationships in the input data. Then providing LLM the ability to generate coherent and contextually relevant text by considering the context of preceding tokens.
+
+In contrast to BERT, LLMs are structured on decoder of Transformer. Without adopting encoder, it is more efficient to train models on large corpus in an autoregressive, unsupervised manner. It then can be fine-tuned for specific tasks. Here are some [conversations](https://chat.openai.com/share/87c75338-1458-45f3-b400-541158a05b0a) with chatGPT for teaching me how GPT using decoder of Transformer to accomplish state-of-the-art results. The summarization is amazing for showing the difference between encoder and decoder of Transformer.
+
+The autogressive model learned amount of knowledge on Internet. However, the outputs are mostly not quite useful for human. It hallucinates stuffs that are not existed, or just wrong. Hence, fine-tuned is needed and OpenAI published a paper [[5](https://arxiv.org/abs/2203.02155)] about how they get a well-behaved LLM. They introduce a mechanism called reinforcement learning from human feedback (RLHF) to instruct the model. They teach model the knowledge by giving them a dataset of labeler demonstrations of the desired model behavior, fine-tuning the model parameters by supervised learning, and then ranking the results from fine-tuned model, and further fine-tuning it through RLHF.
+![Fine-tuning steps](/images/RLHF.png)
+
+
 ## Model Evaluation
 A query from user can be categorized into several domains, such as emotions, intents, or some specific FAQ dataset. 
 ## Deployment
@@ -145,3 +154,5 @@ Or
 [3] Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. ["Bert: Pre-training of deep bidirectional transformers for language understanding."](https://arxiv.org/abs/1810.04805) arXiv preprint arXiv:1810.04805 (2018).
 
 [4] Muller, Britney ["BERT 101 🤗 State Of The Art NLP Model Explained"](https://huggingface.co/blog/bert-101) Hugging Face Blog (2022)
+
+[5] Ouyang et al. [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155) arXiv arXiv:2203.02155 (2022)
