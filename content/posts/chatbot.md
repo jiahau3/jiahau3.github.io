@@ -127,9 +127,12 @@ Through these fine-tuning procedure, the model performance boosts hugely even th
 
 
 ## Model Evaluation
-A query from user can be categorized into several domains, such as emotions, intents, or some specific FAQ dataset. 
+A query from user can be categorized into several domains, such as emotions, intents, or some specific FAQ dataset. A chatbot can be built based on customized FAQ dataset for providing answers to customers. The performance can be examined as classification problem of machine learning. The procedure is splitting the data into training, validation and test set and, using validation set for tuning hyperparameter and preventing overfitting, evaluating the performance on test set by metrics like accuracy, F1-score (suitable for unbalanced dataset). The similar procedure can be applied to analyze intents, emotions.
+
+ If similar search algorithm is used, like building a search engine for getting correct FAQ response or retrieval augmented generation (RAG) system for boosting LLM performance, metrics like hit rate, Mean Reciprocal Rank (MRR) are suitable for examining the model performance.
+
 ## Deployment
-Once ideal result from model is generated, it is ready to be deployed to production environment. One of deployment is setting up APIs to send results. 
+Once ideal result from model is generated, it is ready to be deployed to production environment. One of deployment is setting up APIs for serving the model. It either can adopt GET request to pin the API endpoint with queries on url or use POST request to envelope the information and send it to the endpoints as JSON format.
 
 ## Citation
 Cite as
