@@ -123,6 +123,8 @@ In contrast to BERT, LLMs are structured on decoder of Transformer. Without adop
 The autogressive model learned amount of knowledge on Internet. However, the outputs are mostly not quite useful for human. It hallucinates stuffs that are not existed, or just wrong. Hence, fine-tuned is needed and OpenAI published a paper [[5](https://arxiv.org/abs/2203.02155)] about how they get a well-behaved LLM. They introduce a mechanism called reinforcement learning from human feedback (RLHF) to instruct the model. They teach model the knowledge by giving them a dataset of labeler demonstrations of the desired model behavior, fine-tuning the model parameters by supervised learning, and then ranking the results from fine-tuned model, and further fine-tuning it through RLHF.
 ![Fine-tuning steps](/images/RLHF.png)
 
+Through these fine-tuning procedure, the model performance boosts hugely even though the model parameters are comparably smaller than model without fine-tuning. 
+
 
 ## Model Evaluation
 A query from user can be categorized into several domains, such as emotions, intents, or some specific FAQ dataset. 
