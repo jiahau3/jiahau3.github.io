@@ -7,7 +7,7 @@ ShowToc: true
 #     image: /images/result_vbt.png
 #     alt: MA crossing backtest from VBT
 #     caption: MA crossing backtest from VBT
-tags: ['Sentiment Analysis', 'Embedding', 'LLM']
+tags: ['Sentiment Analysis', 'Word Embedding', 'LLM']
 author: ['Jia-Hau Ching']
 # TocOpen: true
 ---
