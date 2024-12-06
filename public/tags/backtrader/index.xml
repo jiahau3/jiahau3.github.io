@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>BackTrader on JH&#39;s Blog</title>
+    <link>http://localhost:1313/tags/backtrader/</link>
+    <description>Recent content in BackTrader on JH&#39;s Blog</description>
+    <generator>Hugo -- 0.139.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jul 2022 13:46:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/backtrader/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a MA Crossing Strategy and Backtesting with Backtrader and VectorBT</title>
+      <link>http://localhost:1313/posts/ma_strategy/</link>
+      <pubDate>Sat, 02 Jul 2022 13:46:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/ma_strategy/</guid>
+      <description>&lt;p&gt;While on the road of learning algorithmic trading, backtesting provides a safe and efficient way to examine the performance of strategies. In this article, I would like to share my experience of testing a trend following strategy through different approaches.&lt;/p&gt;
+&lt;p&gt;A smooth mean average(SMA) crossover strategy is implemented on the historical data of BTC-BUSD asset. The trading logic is when the fast line of price crossing the slow line of price from below, a buy signal is on. Vice versa, the sell signal is on when fast one crossing slow one from above. 10 day&amp;rsquo;s average price(sma10) is used as fast line, and 20 day&amp;rsquo;s average price(sma20) is for slow line.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

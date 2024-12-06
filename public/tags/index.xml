@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on JH&#39;s Blog</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on JH&#39;s Blog</description>
+    <generator>Hugo -- 0.139.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Nov 2023 13:46:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LLM</title>
+      <link>http://localhost:1313/tags/llm/</link>
+      <pubDate>Sun, 26 Nov 2023 13:46:50 +0800</pubDate>
+      <guid>http://localhost:1313/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>http://localhost:1313/tags/sentiment-analysis/</link>
+      <pubDate>Sun, 26 Nov 2023 13:46:50 +0800</pubDate>
+      <guid>http://localhost:1313/tags/sentiment-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Word Embedding</title>
+      <link>http://localhost:1313/tags/word-embedding/</link>
+      <pubDate>Sun, 26 Nov 2023 13:46:50 +0800</pubDate>
+      <guid>http://localhost:1313/tags/word-embedding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content-Based Filtering</title>
+      <link>http://localhost:1313/tags/content-based-filtering/</link>
+      <pubDate>Wed, 28 Jun 2023 13:46:50 +0800</pubDate>
+      <guid>http://localhost:1313/tags/content-based-filtering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cosine Similarity</title>
+      <link>http://localhost:1313/tags/cosine-similarity/</link>
+      <pubDate>Wed, 28 Jun 2023 13:46:50 +0800</pubDate>
+      <guid>http://localhost:1313/tags/cosine-similarity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recommender Systems</title>
+      <link>http://localhost:1313/tags/recommender-systems/</link>
+      <pubDate>Wed, 28 Jun 2023 13:46:50 +0800</pubDate>
+      <guid>http://localhost:1313/tags/recommender-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BackTrader</title>
+      <link>http://localhost:1313/tags/backtrader/</link>
+      <pubDate>Sat, 02 Jul 2022 13:46:50 +0800</pubDate>
+      <guid>http://localhost:1313/tags/backtrader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trading</title>
+      <link>http://localhost:1313/tags/trading/</link>
+      <pubDate>Sat, 02 Jul 2022 13:46:50 +0800</pubDate>
+      <guid>http://localhost:1313/tags/trading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VectorBT</title>
+      <link>http://localhost:1313/tags/vectorbt/</link>
+      <pubDate>Sat, 02 Jul 2022 13:46:50 +0800</pubDate>
+      <guid>http://localhost:1313/tags/vectorbt/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
