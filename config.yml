@@ -26,8 +26,6 @@ params:
       url: "https://www.kaggle.com/jiahauc"
     - name: 'twitter'
       url: "https://twitter.com/JiahauChing"
-    - name: 'paypal'
-      url: 'https://paypal.me/jiahauC?country.x=TW&locale.x=en_US'
     - name: 'upwork'
       url: 'https://www.upwork.com/freelancers/~01c2a4024693ca5235?viewMode=1'
     - name: 'medium'
